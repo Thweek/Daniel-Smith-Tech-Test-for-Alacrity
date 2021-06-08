@@ -1,0 +1,23 @@
+Problem 1 (1hr)
+    Part A
+        -Clean, clear and reuseable way.
+        -Determines whether a given number is prime (factors are 1 and itself)
+        -If not prime, capture factors in appropriate data structure and output them.
+        -If number is prime - output as string.
+
+        Plan
+            -Prime number divided by itself and 1.
+            -Can use modulus % operator to find remainder after division and then find factors
+            factors of a number (numbers that will divide into it).
+
+            -Basic function takes in number, called "n".
+            -Use a loop to increase a number in a variable then check if that number is a factor of "n",
+            using modulus operator and checking for remainder.
+            -If it is a factor then increase a count by 1. Then carry on.
+            -If this count goes past 2, i.e more factors than itself and one. Then the number isn't prime.
+
+
+
+
+
+    Part B
