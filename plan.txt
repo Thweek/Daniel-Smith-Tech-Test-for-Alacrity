@@ -21,3 +21,7 @@ Problem 1 (1hr)
 
 
     Part B
+        -Create a web interface for the problem above.
+        -Allow user to enter a number, or specify a range.
+        -Then page updates with result of requested operation.
+        -Include any HTML/JS/CSS needed.
